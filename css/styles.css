@@ -1,3 +1,18 @@
+/* Mobile Scroll Fix */
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+body {
+  touch-action: pan-y;
+}
+
 .fade-in {
   animation: fadeIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
   opacity: 0;

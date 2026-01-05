@@ -62,15 +62,6 @@ class App {
         this.ui.toggleModal();
       }
     });
-
-    // Prevent default touch behavior for drag and drop
-    document.addEventListener(
-      "touchmove",
-      (e) => {
-        e.preventDefault();
-      },
-      { passive: false }
-    );
   }
 
   // Toggle mode
